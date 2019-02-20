@@ -3,17 +3,10 @@
 }
 
 html {
-  height: 100%;
 }
 
 body {
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1rem;
+  margin: 0;
 }
 
 nav {
@@ -22,7 +15,6 @@ nav {
   align-items: center;
   font-size: 15px;
   background-color: #f6f6f6;
-  width: 100vw;
   height: 3.5rem;
   padding: 0.5rem;
 }
@@ -36,49 +28,49 @@ nav ul li {
   padding-right: 1rem;
 }
 
-.item-shell img {
-  border: 1px solid rgba(226, 215, 215, 0.884);
-  border-radius: 0.5rem;
-  margin: 1rem;
-  height: 30rem;
-  width: 30rem;
-}
-.purchasable {
+/* ------ */
+
+.cat-container {
   display: flex;
   justify-content: space-between;
+  padding: 2rem 0rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.item-shell img {
+  display: flex;
+  border: 1px solid rgba(226, 215, 215, 0.884);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  height: 25rem;
+  width: 25rem;
+}
+
+.item-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0 4rem;
+}
+
+.purchasable {
+  display: flex;
   align-items: center;
 }
 .purchasable img {
   height: 3rem;
   width: 3rem;
 }
-.logo {
-  padding: 1px;
-}
-
-.Footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: nowrap;
-  font-size: 1rem;
-}
 
 .end {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin: 0;
 }
-/* 
-.number {
-  display: flex;
-  justify-items: flex-start;
-  color: lightslategrey;
-}
-
-.purchasable {
-  display: flex;
-  justify-content: right;
-} */

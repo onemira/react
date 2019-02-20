@@ -8,20 +8,18 @@ class Vinyl extends Component {
       <section className="main">
         <div className="item-shell">
           <figure className="item list">
-            <img scr={VinylImage} alt="vinylcat" />
+            <img src={VinylImage} alt="vinylcat" />
           </figure>
         </div>
         <div className="item-number">
-          <figcaption>
-            <p className="number">#122</p>
-            <p className="purchasable">
-              Vinyltocat
-              <img
-                src="https://avatars0.githubusercontent.com/u/7002940?s=400&v=4"
-                alt="cat"
-              />
-            </p>
-          </figcaption>
+          <p>#122</p>
+          <p className="purchasable">
+            Vinyltocat
+            <img
+              src="https://avatars0.githubusercontent.com/u/7002940?s=400&v=4"
+              alt="cat"
+            />
+          </p>
         </div>
       </section>
     )

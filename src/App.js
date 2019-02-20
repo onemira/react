@@ -10,9 +10,11 @@ class App extends Component {
     return (
       <>
         <NavBar />
-        <Hulaloop />
-        <Vinyl />
-        <Detective />
+        <section className="cat-container">
+          <Hulaloop />
+          <Vinyl />
+          <Detective />
+        </section>
         <Footer />
       </>
     )

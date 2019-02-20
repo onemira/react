@@ -12,17 +12,15 @@ class Detective extends Component {
           </figure>
         </div>
         <div className="item-number">
-          <figcaption>
-            <p className="number">#122</p>
-            <p className="purchasable">
-              {' '}
-              the detective cat by{' '}
-              <img
-                src="https://avatars0.githubusercontent.com/u/20049049?s=400&v=4"
-                alt="Hulatocat"
-              />{' '}
-            </p>
-          </figcaption>
+          <p className="number">#122</p>
+          <p className="purchasable">
+            {' '}
+            the detective cat by{' '}
+            <img
+              src="https://avatars0.githubusercontent.com/u/20049049?s=400&v=4"
+              alt="Hulatocat"
+            />{' '}
+          </p>
         </div>
       </section>
     )
