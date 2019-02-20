@@ -7,6 +7,78 @@ html {
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
 }
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  background-color: #f6f6f6;
+  width: 100vw;
+  height: 3.5rem;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding-right: 1rem;
+}
+
+.item-shell img {
+  border: 1px solid rgba(226, 215, 215, 0.884);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  height: 30rem;
+  width: 30rem;
+}
+.purchasable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.purchasable img {
+  height: 3rem;
+  width: 3rem;
+}
+.logo {
+  padding: 1px;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 1rem;
+}
+
+.end {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 1rem;
+}
+/* 
+.number {
+  display: flex;
+  justify-items: flex-start;
+  color: lightslategrey;
+}
+
+.purchasable {
+  display: flex;
+  justify-content: right;
+} */
